@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+nav{
+    background-color: rgb(137, 137, 233);
+   
+}
+.nav-container{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0;
+
+}
+.nav-logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-logo img{
+    width: 80px;
+
+}
+.nav-span{
+    color: rgb(226, 191, 244);
+}
+.nav-logo h1{
+    font-size: 35px;
+}
+.nav-hed-title > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+       
+}
+.nav-hed-title {
+    width: 50%;
+  gap: 10px;
+
+ 
+}
+.nav-hed-title a{
+    text-decoration: none;
+    color: white; 
+   
+}
+.nav-btn{
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 0;
+    background-color:rgb(226, 191, 244);
+    
+}
+
+/*  */
+.beg-container{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto 0 ;
+    background-color: #e6e9eb;
+    padding: 15px ;
+    border-radius: 10px;
+}
+.beg-title{
+    width: 50%;
+    text-align: center;
+}
+.beg-title h1{
+    font-size: 50px;
+    background-image: linear-gradient(to bottom,rgb(226, 191, 244),rgb(137, 137, 233));
+    color:transparent;
+    -webkit-background-clip: text;
+   
+}
+.beg-title h3{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 0;
+}
+.beg-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.beg-image{
+    width: 50%;
+}
+.beg-logo span{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.beg-btn{
+    padding: 8px 12px;
+    border: 2px solid rgb(137, 137, 233);
+    margin: 15px 5px 0 0;
+    
+}
+/*  */
+
+.products-container-h1{
+    font-size: 35px;
+    text-align: center;
+    padding: 15px 0;
+}
+.products-container{
+    max-width: 1400px;
+
+    margin: 0 auto;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+  
+}
+.products-contant img{
+    width: 100%;
+}
+.products-contant{
+   
+    padding: 10px;
+    box-shadow: 3px 4px 5px black;
+}
+.products-p{
+    padding: 5px 0;
+}
+.products-p2{
+    padding: 10px 0;
+}
+
+.products-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.products-title span{
+font-size: 18px;
+gap: 5px;
+}
+/*  */
+.discount-container-info{
+    
+    background-color:  rgb(137, 137, 233);
+   margin: 50px 0;
+}
+.discount-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+
+   
+}
+.discount-image{
+    position: relative;
+}
+.discount-tag{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    position: absolute;
+    left: 75%;
+    top: 5%;
+}
+.discount-title h1{
+    font-size: 30px;
+}
+.discount-title p{
+    padding: 10px 0 0 0;
+}
+.discount-btn{
+ padding: 10px;
+ margin: 10px 0;
+ border: 0;       
+}
+
+/*  */
+.reaview-h1{
+    font-size: 30px;
+    text-align: center;
+}
+.reaview-container-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    
+}
+.reaview-container{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.reaview-c-info-title{
+    flex-basis: 300px;
+    background-color: rgb(226, 191, 244);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.reaview-container img{
+   width: 60px;
+   height: 60px;
+}
+.products{
+    margin-top: 50px;
+}
+
+/*  */
+.footer-container-info{
+background-color:  rgb(137, 137, 233);
+text-align: center;
+padding: 100px 0;
+}
+.footer-container{
+    max-width: 1400px;
+    margin: 0 auto;
+   
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo img{
+    width: 80px;
+
+}
+.footer-span{
+    color: rgb(226, 191, 244);
+}
+.footer-logo h1{
+    font-size: 35px;
+}
+@media screen and (max-width:576px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-hed-title > ul{
+        font-size: 18px;
+        gap: 10px;
+    }
+    .nav-btn{
+        font-size: 18px;
+    padding: 7px 15px;
+    }
+    /*  */
+    .beg-container{
+        flex-direction: column;
+    }
+    .beg-title h1{
+        font-size: 35px;
+    }
+    .beg-title h3{
+        padding: 10px;
+        font-size: 15px;
+    }
+    .beg-logo span{
+        font-size: 20px;
+        /* margin-right: 10px; */
+    }
+    .beg-btn{
+        padding: 4px;
+        
+        margin: 10px 5px ;
+        
+    }
+    .beg-image {
+        width: 100%;
+    }
+    .products-container{
+        grid-template-columns: 1fr;
+    }
+    .products-contant{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .products-p{
+        font-size: 13px;
+    }
+    /*  */
+    .discount-container{
+        flex-direction: column;
+    }
+    .discount-container h1{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .discount-title p{
+        font-size: 14px;
+    }
+    .discount-btn{
+        font-size: 14px;
+        padding: 7px;
+    }
+}
+
